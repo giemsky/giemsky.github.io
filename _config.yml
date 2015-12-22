@@ -1,0 +1,26 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Greg's personal journal
+tagline:             "( ͡° ͜ʖ ͡°)"
+url:                 http://gmiklaszewski.pl
+paginate:            3
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Greg Miklaszewski
+  twitter:           giemsky
+  github:            giemsky
+  email:             mail@gmiklaszewski.pl
